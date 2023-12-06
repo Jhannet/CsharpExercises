@@ -1,0 +1,6 @@
+F:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.exe.config
+F:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.exe
+F:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.pdb
+F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.csprojResolveAssemblyReference.cache
+F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.exe
+F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.pdb
