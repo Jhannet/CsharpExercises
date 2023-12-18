@@ -39,6 +39,18 @@ namespace CsharpExercises
             int[] answers = { 5, 5, 10, 10, 15, 15, 20, 20 };
             string interviewResult = Exercise13.Interview(answers, 120);
             Console.WriteLine(interviewResult);
+
+            int longestLength = Exercise6.LengthOfLongestSubstring("pwwkew");
+            Console.WriteLine(longestLength);
+
+            double[] tribonacci = Exercise10.Tribonacci(new double[] { 1, 1, 1 }, 10);
+            Console.WriteLine(tribonacci.ToString());
+
+            int maxSequence = Exercise11.MaxSequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 });
+            Console.WriteLine(maxSequence);
+
+            int diamondSum = Exercise14.DiamondSum(3);
+            Console.WriteLine(diamondSum);
         }
     }
 }

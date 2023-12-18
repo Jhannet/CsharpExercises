@@ -44,12 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercises\Exercise1.cs" />
+    <Compile Include="Exercises\Exercise10.cs" />
+    <Compile Include="Exercises\Exercise11.cs" />
     <Compile Include="Exercises\Exercise12.cs" />
     <Compile Include="Exercises\Exercise13.cs" />
+    <Compile Include="Exercises\Exercise14.cs" />
     <Compile Include="Exercises\Exercise2.cs" />
     <Compile Include="Exercises\Exercise3.cs" />
     <Compile Include="Exercises\Exercise4.cs" />
     <Compile Include="Exercises\Exercise5.cs" />
+    <Compile Include="Exercises\Exercise6.cs" />
     <Compile Include="Exercises\Exercise7.cs" />
     <Compile Include="Exercises\Exercise8.cs" />
     <Compile Include="Exercises\Exercise9.cs" />
@@ -58,6 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Results\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
