@@ -6,7 +6,6 @@ namespace CsharpExercises.Exercises
     {
         public static bool AlmostPalindrome(string str)
         {
-            bool result = true;
             var array = str.ToArray();
             var reverseArray = array.Reverse().ToArray();
             int counter = 0;
@@ -20,12 +19,11 @@ namespace CsharpExercises.Exercises
 
                 if (counter > 1)
                 {
-                    result = false;
                     break;
                 }
             }
 
-            return result;
+            return counter == 1;
         }
     }
 }

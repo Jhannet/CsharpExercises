@@ -27,6 +27,23 @@ namespace CsharpExercises.Exercises
                 }
             }
 
+            for (int number = 3; number < value; number++)
+            {
+                if (number % 3 == 0)
+                {
+                    Console.WriteLine(number % 5 == 0 ? "" : "");
+                }
+                else if (number % 5 == 0)
+                {
+                    //print
+                }
+                else
+                { 
+                    //print number
+                }
+
+            }
+
             return result;
         }
     }

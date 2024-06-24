@@ -46,6 +46,8 @@ namespace CsharpExercises.Exercises
                     counter += distance;
                 }
             }
+            // 2,4,6,8 - 3
+            // 3,7,9,11,15,17,19,23 - 5
 
             return 0;
         }

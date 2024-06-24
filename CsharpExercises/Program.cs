@@ -1,16 +1,31 @@
 ﻿using CsharpExercises.Exercises;
+using CsharpExercises.Exercises.Exercise15;
+using CsharpExercises.Exercises.LinqExercise;
 using System;
+using System.Collections;
+using System.Linq;
 
 namespace CsharpExercises
 {
     class Program
     {
+        static String location;
+        static DateTime time;
+
         static void Main(string[] args)
         {
-            string result = Exercise1.AlphabetPosition("The sunset sets at twelve o' clock.");
+            #region interview
+            Console.WriteLine(location == null ? "location is null" : location);
+            Console.WriteLine(time == null ? "time is null" : time.ToString());
+            #endregion
+
+            /*string result = Exercise1.AlphabetPosition("ABABC");
             Console.WriteLine(result);
 
-            string humanTime = Exercise2.GetReadableTime(359999);
+            string result1 = Exercise1.AlphabetPosition("CABBACCC");
+            Console.WriteLine(result1);*/
+
+            /*string humanTime = Exercise2.GetReadableTime(359999);
             Console.WriteLine(humanTime);
 
             int sum = Exercise3.Solution(200);
@@ -51,6 +66,44 @@ namespace CsharpExercises
 
             int diamondSum = Exercise14.DiamondSum(3);
             Console.WriteLine(diamondSum);
+
+            var paper1 = new Testpaper("Maths", new string[] { "1A", "2C", "3D", "4A", "5A" }, "60%");
+            var paper2 = new Testpaper("Chemistry", new string[] { "1C", "2C", "3D", "4A" }, "75%");
+            var paper3 = new Testpaper("Computing", new string[] { "1D", "2C", "3C", "4B", "5D", "6C", "7A" }, "75%");
+
+            var student1 = new Student();
+            var student2 = new Student();
+
+            Console.WriteLine(string.Join("\n", student1.TestsTaken));//➞ { "No tests taken" }
+            student1.TakeTest(paper1, new string[] { "1A", "2D", "3D", "4A", "5A" });
+            Console.WriteLine(string.Join("\n", student1.TestsTaken));// ➞ { "Maths: Passed! (80%)" }
+
+            student2.TakeTest(paper2, new string[] { "1C", "2D", "3A", "4C" });
+            student2.TakeTest(paper3, new string[] { "1A", "2C", "3A", "4C", "5D", "6C", "7B" });
+            Console.WriteLine(string.Join("\n", student2.TestsTaken));// ➞ { "Chemistry: Failed! (25%)", "Computing: Failed! (43%)" }*/
+
+            /*var startingDeck = from s in CardDeck.Suits()
+                               from r in CardDeck.Ranks()
+                               select new { Suit = s, Rank = r };*/
+            //var startingDeck = CardDeck.Suits().SelectMany(suit => CardDeck.Ranks().Select(rank => new { Suit = suit, Rank = rank }));
+
+            // Display each card that we've generated and placed in startingDeck in the console
+            /*foreach (var card in startingDeck)
+            {
+                Console.WriteLine(card);
+            }
+
+            var top = startingDeck.Take(26);
+            var bottom = startingDeck.Skip(26);
+            var shuffle = top.InterleaveSequenceWith(bottom);
+
+            foreach (var c in shuffle)
+            {
+                Console.WriteLine(c);
+            }*/
+
+            bool isPangram = Exercise16.IsPangram("The quick brown fox jumps over the lazy dog.");
+            Console.WriteLine(isPangram);
         }
     }
 }

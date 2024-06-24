@@ -4,3 +4,10 @@ F:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.pdb
 F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.csprojResolveAssemblyReference.cache
 F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.exe
 F:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.pdb
+E:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.exe.config
+E:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.exe
+E:\projects\CsharpExercises\CsharpExercises\bin\Debug\CsharpExercises.pdb
+E:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.csproj.AssemblyReference.cache
+E:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.csproj.CoreCompileInputs.cache
+E:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.exe
+E:\projects\CsharpExercises\CsharpExercises\obj\Debug\CsharpExercises.pdb
